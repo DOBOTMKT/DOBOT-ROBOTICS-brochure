@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF Preview</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    .header {
+      padding: 16px 24px;
+      background: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+    .header h1 {
+      font-size: 16px;
+      margin: 0;
+    }
+    .header a {
+      text-decoration: none;
+      padding: 8px 14px;
+      border-radius: 4px;
+      background: #0047BB;
+      color: #fff;
+      font-size: 14px;
+    }
+    iframe {
+      width: 100%;
+      height: calc(100vh - 64px);
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>CRA Series Brochure-20231222-RU</h1>
+    <a href="CRA Series Brochure-20231222-RU.pdf" download>Download PDF</a>
+  </div>
+
+  <iframe src="CRA Series Brochure-20231222-RU.pdf"></iframe>
+</body>
+</html>
